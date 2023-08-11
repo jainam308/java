@@ -14,9 +14,9 @@ public class prac30
     	System.out.println("-----------------------");
     	System.out.println("En No"+"		"+"Name");
     	System.out.println("-----------------------");
-    	for(Map.Entry m:student.entrySet())
+    	for(int m:student.keySet())
     	{
-    		System.out.println(m.getKey()+"		"+m.getValue());
+    		System.out.println(m+"		"+student.get(m));
     	}
     }
 }
